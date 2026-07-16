@@ -106,6 +106,3 @@ Uber Eats or Uber Technologies, Inc. in any way**.
 Some images used in this project are sourced from Uber Eats' public content and are
 used solely for educational/non-commercial purposes. All trademarks, logos, and
 copyrighted material belong to their respective owners.
-
-If you are a rights holder and have concerns about content used in this project,
-please open an issue or reach out, and it will be addressed promptly.
