@@ -1,8 +1,8 @@
-# UberEats Platform
+# Food Delivery Platform
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://ubereats-platform.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://food-delivery-platforms.vercel.app/)
 
-A server-rendered UberEats clone (food-delivery browsing) built with the Next.js App Router and an Express + GraphQL + MySQL backend.
+A server-rendered food delivery platform built with the Next.js App Router and an Express + GraphQL + MySQL backend.
 
 It exists as a portfolio piece, not a product. The interesting part is not the UI — it is the paper trail. Every architectural change in this repo was scoped as a deliberate migration with its own objective, prompt, and task breakdown under [`app/ai/`](app/ai). This README summarises the decisions and points you to where each one lives in the code. The data is sampled from UberEats Taiwan and used for learning purposes only.
 
@@ -96,3 +96,13 @@ Staging and production intentionally share one Render service and one Aiven data
 | Next.js | Vercel   | Auto-deploy via Git integration (preview on `release*`, prod on `main`) |
 | Express | Render   | Pulls the `ghcr.io` image; production only (triggered on `main`)        |
 | MySQL   | Aiven    | Initialised manually once; shared across environments                   |
+
+## Disclaimer
+
+This project is a personal portfolio piece built for learning and skill demonstration
+purposes only. It is **not affiliated with, endorsed by, or officially connected to
+Uber Eats or Uber Technologies, Inc. in any way**.
+
+Some images used in this project are sourced from Uber Eats' public content and are
+used solely for educational/non-commercial purposes. All trademarks, logos, and
+copyrighted material belong to their respective owners.
