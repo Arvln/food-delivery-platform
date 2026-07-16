@@ -109,9 +109,11 @@ function Carousel() {
                 src={`https://${ADVERTISE_IMAGE_SERVER_HOST}/${imageSuffix}`}
                 fill
                 sizes="(max-width: 768px) 100vw, 25vw"
-                priority={slot >= GROUP_SIZE && slot < GROUP_SIZE * 2}
                 loading={
                   slot >= GROUP_SIZE && slot < GROUP_SIZE * 2 ? "eager" : "lazy"
+                }
+                fetchPriority={
+                  slot >= GROUP_SIZE && slot < GROUP_SIZE * 2 ? "high" : "auto"
                 }
                 placeholder="blur"
                 blurDataURL={blurDataURL}
